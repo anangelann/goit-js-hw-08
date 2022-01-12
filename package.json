@@ -1,0 +1,36 @@
+{
+  "name": "parcel-project-template",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Deemon13.github.io/parcel-project-template",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "devDependencies": {
+    "browserslist": "^4.17.5",
+    "caniuse-lite": "^1.0.30001271",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.2",
+    "sass": "^1.43.3"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.16.2",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.10.1",
+    "vimeo": "^2.1.1"
+  }
+}
